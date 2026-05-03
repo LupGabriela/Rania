@@ -1,0 +1,4 @@
+@import "tailwindcss";
+
+/* This specifically tells it to only look at JS/TS files, avoiding the loop */
+@source "../../src/**/*.{js,ts,jsx,tsx}";
